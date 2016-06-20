@@ -1,5 +1,5 @@
-body{
-background-color: #008080;
+html{
+height:100%;
 }
 .home{
   position: fixed;
@@ -16,7 +16,7 @@ img{
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  height:100vh;
+  min-height:100%;
 }
 
 .carousel-caption{
@@ -51,7 +51,6 @@ h1{
   top: -500px;
   width: 800px;
   color: red;
-  text-transform: uppercase;
 }
 p{
   position: absolute;
