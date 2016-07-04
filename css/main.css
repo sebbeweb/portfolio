@@ -1,15 +1,4 @@
-body{
-background-color: #f1f1f1;
-}
-.home{
-  position: fixed;
-  opacity: 0.85;
-  z-index: ;
-}
-img{
-  margin:auto;
-  width: 100%;
-}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -19,10 +8,14 @@ img{
 }
 
 .carousel-caption{
-  width: 60%;
+  width: 80%;
   height: 100%;
   padding: 0;
+  right: 0;
+  left: 0;
+  margin:auto;
 }
+
 .carousel-control{
   width: 0;
 
@@ -37,18 +30,23 @@ img{
   right: 50%;
   margin-right:50px;
 }
-.glyphicon{
-  color: 006868;
+/*----------------general------------------*/
+body{
+background-color: #007f00;
 }
-.fa.fa-arrow-circle-right{
-font-size: 50px;
-  color: #008080;
-  margin: auto;
+.home{
+  position: fixed;
+  opacity: 0.85;
+  z-index: ;
 }
+img{
+  margin:auto;
+  width: 100%;
+}
+
 h1{
   position: absolute;
   width: 100%;
-  color: red;
   text-transform: uppercase;
   text-align: center;
 }
@@ -57,3 +55,21 @@ p{
   margin-top: 100px;
   text-align: justify;
 }
+
+/*---------------------parcour-------------*/
+.textpicto{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.parc{
+  display:flex;
+  margin-top: 50px;
+}
+.picto{
+    width: 10%;
+}
+/*-----------------realisation-------------*/
+
+/*-----------------language---------------*/
