@@ -23,12 +23,12 @@
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
-  margin-left:50px;
+  margin-left:25%;
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
-  margin-right:50px;
+  margin-right:25%;
 }
 /*----------------general------------------*/
 body{
@@ -37,7 +37,6 @@ background-color: #007f00;
 .home{
   position: fixed;
   opacity: 0.85;
-  z-index: ;
 }
 img{
   margin:auto;
@@ -52,7 +51,7 @@ h1{
 }
 
 p{
-  margin-top: 100px;
+  margin-top: 25%;
   text-align: justify;
 }
 
@@ -69,7 +68,14 @@ p{
 }
 .picto{
     width: 10%;
+    color: white;
 }
 /*-----------------realisation-------------*/
 
 /*-----------------language---------------*/
+.lang{
+  width: 10%;
+  margin: 0;
+  margin-top: 70px;
+  display: block;
+}
