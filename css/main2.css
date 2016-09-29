@@ -1,68 +1,73 @@
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  height: 100vh; }
+  height:100vh;
+}
 
-.carousel-caption {
+.carousel-caption{
   width: 80%;
   height: 100%;
   padding: 0;
   right: 0;
   left: 0;
-  margin: auto; }
+  margin:auto;
+}
 
-.carousel-control {
-  width: 0; }
+.carousel-control{
+  width: 0;
 
+}
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
-  margin-left: 25%; }
-
+  margin-left:25%;
+}
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
-  margin-right: 25%; }
-
+  margin-right:25%;
+}
 /*----------------general------------------*/
-body {
-  background-color: #007f00; }
-
-.home {
+body{
+background-color: #007f00;
+}
+.home{
   position: fixed;
-  opacity: 0.85; }
+  opacity: 0.85;
+}
+img{
+  margin:auto;
+  width: 100%;
+}
 
-img {
-  margin: auto;
-  width: 100%; }
-
-h1 {
+h1{
   position: absolute;
   width: 100%;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+}
 
-p {
+p{
   margin-top: 25%;
-  text-align: justify; }
+  text-align: justify;
+}
 
 /*---------------------parcour-------------*/
-.textpicto {
+.textpicto{
   width: 80%;
   margin: auto;
   display: flex;
-  justify-content: space-between; }
-
-.parc {
-  display: flex;
-  margin-top: 50px; }
-
-.picto {
-  width: 10%;
-  color: white; }
-
+  justify-content: space-between;
+}
+.parc{
+  display:flex;
+  margin-top: 50px;
+}
+.picto{
+    width: 10%;
+    color: white;
+}
 /*-----------------realisation-------------*/
-
-/*# sourceMappingURL=main.css.map */
